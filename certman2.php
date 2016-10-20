@@ -5,8 +5,7 @@
 require_once '../../lib/t_safe_check.inc';
 require_once '../../lib/t_csrf_check.inc';
 require_once 'checkIsLogin.inc';
-require_once '../../lib/adodb5/adodb.inc.php';
-require_once '../../lib/t_common.inc';
+re
 require_once '../../lib/t_optlog.inc';
 require_once '../../lib/t_sqlite3handler.inc';
 require_once '../../lib/t_sysconfig.inc';
