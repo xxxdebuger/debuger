@@ -1,0 +1,17 @@
+1. php 数据库提取函数的区别
+mysql_fetch_array() //作为关联数组，或数字数组
+
+mysql_fetch_row() //枚举数组
+
+mysql_fetch_assoc()//关联数组
+
+2. "./a.php" 与 "a.php"在require/include中的区别
+
+1. "a.php" 但在php的include/require包含机制中，这种类型的路径跟以 . 开头的相对路径处理是完全不同的。require './a.php' 和 require 'a.php' 是不同的！
+
+2. "相对路径"是以www路径为相对路径进行计算的，之所以一些路径require_once没有使用www到自己的相对路径是因为这里这个路径根本没有引用到页面中，而是在前面某个页面包含了这个页面。
+
+
+
+
+
